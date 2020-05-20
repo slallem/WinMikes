@@ -1,0 +1,12 @@
+E:\DEV\wwin\WinMikes\bin\Release\WinMikes.exe.config
+E:\DEV\wwin\WinMikes\bin\Release\WinMikes.exe
+E:\DEV\wwin\WinMikes\bin\Release\WinMikes.pdb
+E:\DEV\wwin\WinMikes\bin\Release\NAudio.dll
+E:\DEV\wwin\WinMikes\bin\Release\NAudio.xml
+E:\DEV\wwin\WinMikes\obj\Release\WinMikes.frmMain.resources
+E:\DEV\wwin\WinMikes\obj\Release\WinMikes.Properties.Resources.resources
+E:\DEV\wwin\WinMikes\obj\Release\WinMikes.csproj.GenerateResource.cache
+E:\DEV\wwin\WinMikes\obj\Release\WinMikes.csproj.CoreCompileInputs.cache
+E:\DEV\wwin\WinMikes\obj\Release\WinMikes.csproj.CopyComplete
+E:\DEV\wwin\WinMikes\obj\Release\WinMikes.exe
+E:\DEV\wwin\WinMikes\obj\Release\WinMikes.pdb
