@@ -169,6 +169,10 @@ namespace WinMikes
             lbEvents.Items.Clear();
         }
 
+        private void btnSettings_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("control.exe", "mmsys.cpl sounds");
+        }
     }
 
     class USBDeviceInfo

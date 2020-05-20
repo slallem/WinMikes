@@ -37,6 +37,7 @@
             this.chDefault = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.chState = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.chInfo = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.btnSettings = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -120,11 +121,22 @@
             this.chInfo.Text = "Information";
             this.chInfo.Width = 177;
             // 
+            // btnSettings
+            // 
+            this.btnSettings.Location = new System.Drawing.Point(746, 81);
+            this.btnSettings.Name = "btnSettings";
+            this.btnSettings.Size = new System.Drawing.Size(109, 45);
+            this.btnSettings.TabIndex = 12;
+            this.btnSettings.Text = "Audio Settings";
+            this.btnSettings.UseVisualStyleBackColor = true;
+            this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
+            // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(867, 504);
+            this.Controls.Add(this.btnSettings);
             this.Controls.Add(this.lvDevices);
             this.Controls.Add(this.btnListMM);
             this.Controls.Add(this.btClearEvents);
@@ -147,6 +159,7 @@
         private System.Windows.Forms.ColumnHeader chDefault;
         private System.Windows.Forms.ColumnHeader chState;
         private System.Windows.Forms.ColumnHeader chInfo;
+        private System.Windows.Forms.Button btnSettings;
     }
 }
 
